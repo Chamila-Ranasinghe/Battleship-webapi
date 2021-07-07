@@ -1,0 +1,8 @@
+C:\Users\Jonny\source\repos\BattleShip\DataTransfer\bin\Debug\netcoreapp3.1\DataTransfer.deps.json
+C:\Users\Jonny\source\repos\BattleShip\DataTransfer\bin\Debug\netcoreapp3.1\DataTransfer.dll
+C:\Users\Jonny\source\repos\BattleShip\DataTransfer\obj\Debug\netcoreapp3.1\DataTransfer.AssemblyInfoInputs.cache
+C:\Users\Jonny\source\repos\BattleShip\DataTransfer\obj\Debug\netcoreapp3.1\DataTransfer.AssemblyInfo.cs
+C:\Users\Jonny\source\repos\BattleShip\DataTransfer\bin\Debug\netcoreapp3.1\DataTransfer.pdb
+C:\Users\Jonny\source\repos\BattleShip\DataTransfer\obj\Debug\netcoreapp3.1\DataTransfer.csprojAssemblyReference.cache
+C:\Users\Jonny\source\repos\BattleShip\DataTransfer\obj\Debug\netcoreapp3.1\DataTransfer.dll
+C:\Users\Jonny\source\repos\BattleShip\DataTransfer\obj\Debug\netcoreapp3.1\DataTransfer.pdb

@@ -1,0 +1,11 @@
+C:\Users\Jonny\source\repos\BattleShip\BusinessService\obj\Debug\netcoreapp3.1\BusinessService.csprojAssemblyReference.cache
+C:\Users\Jonny\source\repos\BattleShip\BusinessService\obj\Debug\netcoreapp3.1\BusinessService.AssemblyInfoInputs.cache
+C:\Users\Jonny\source\repos\BattleShip\BusinessService\obj\Debug\netcoreapp3.1\BusinessService.AssemblyInfo.cs
+C:\Users\Jonny\source\repos\BattleShip\BusinessService\bin\Debug\netcoreapp3.1\BusinessService.deps.json
+C:\Users\Jonny\source\repos\BattleShip\BusinessService\bin\Debug\netcoreapp3.1\BusinessService.dll
+C:\Users\Jonny\source\repos\BattleShip\BusinessService\bin\Debug\netcoreapp3.1\BusinessService.pdb
+C:\Users\Jonny\source\repos\BattleShip\BusinessService\bin\Debug\netcoreapp3.1\DataTransfer.dll
+C:\Users\Jonny\source\repos\BattleShip\BusinessService\bin\Debug\netcoreapp3.1\DataTransfer.pdb
+C:\Users\Jonny\source\repos\BattleShip\BusinessService\obj\Debug\netcoreapp3.1\BusinessService.csproj.CopyComplete
+C:\Users\Jonny\source\repos\BattleShip\BusinessService\obj\Debug\netcoreapp3.1\BusinessService.dll
+C:\Users\Jonny\source\repos\BattleShip\BusinessService\obj\Debug\netcoreapp3.1\BusinessService.pdb
