@@ -62,48 +62,56 @@ namespace BusinessService.Implementation
 
         public CommonResponce<GameDetailsDto> CalculateGamePoints(GameDetailsDto gameData)
         {
+       
             CommonResponce<GameDetailsDto> responce = new CommonResponce<GameDetailsDto>();
             GameDetailsDto data = new GameDetailsDto();
             int totalAmount = 0;
             int winningScore = 13;
-
-            if (gameData != null)
+            try
             {
-                totalAmount = gameData.DestroyerCount + gameData.Destroyer2Count + gameData.BattleShipCount;
-                if (totalAmount == winningScore)
+                if (gameData != null)
                 {
-                    responce.IsSucessfull = true;
-                    responce.Message = gameData.ActiveUser + " " + "WINS !!";
-                    data.TotalScore = totalAmount;
-                    responce.Dataset = data;
+                    totalAmount = gameData.DestroyerCount + gameData.Destroyer2Count + gameData.BattleShipCount;
+                    if (totalAmount == winningScore)
+                    {
+                        responce.IsSucessfull = true;
+                        responce.Message = gameData.ActiveUser + " " + "WINS !!";
+                        data.TotalScore = totalAmount;
+                        responce.Dataset = data;
+                    }
+                    else
+                    {
+
+                        if (gameData.DestroyerCount == 4)
+                        {
+                            responce.Message = "Destroyer Sunk!";
+                        }
+                        else if (gameData.Destroyer2Count == 4)
+                        {
+                            responce.Message = "Destroyer-two Sunk!";
+                        }
+                        else if (gameData.BattleShipCount == 5)
+                        {
+                            responce.Message = "Battleship Sunk!";
+                        }
+                        else
+                        {
+                            responce.Message = string.Empty;
+                        }
+
+                        responce.IsSucessfull = false;
+                        data.TotalScore = totalAmount;
+                        responce.Dataset = data;
+                    }
+
                 }
                 else
                 {
-
-                    if (gameData.DestroyerCount == 4)
-                    {
-                        responce.Message = "Destroyer Sunk!";
-                    }
-                    else if (gameData.Destroyer2Count == 4)
-                    {
-                        responce.Message = "Destroyer-two Sunk!";
-                    }
-                    else if (gameData.BattleShipCount == 5)
-                    {
-                        responce.Message = "Battleship Sunk!";
-                    }
-                    //else
-                    //{
-                    //    responce.Message = "Keep Trying, Your Almost There!";
-                    //}
-
                     responce.IsSucessfull = false;
-                    data.TotalScore = totalAmount;
-                    responce.Dataset = data;
+                    responce.Message = "Game Data Received Empty!";
                 }
-
             }
-            else
+            catch (Exception ex)
             {
                 responce.IsSucessfull = false;
                 responce.Message = "Game Data Received Empty!";
